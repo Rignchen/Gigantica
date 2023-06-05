@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ender_eye",
+                    "functions": [
+                        {
+                            "function": "copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "merge",
+                                    "source": "all.bonemeal_essence.tag",
+                                    "target": "{}"
+                                }
+                            ],
+                            "source": {
+                                "type": "storage",
+                                "source": "ovgrow:item"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

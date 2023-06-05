@@ -1,1 +1,0 @@
-give @s minecraft:ender_eye{CustomModelData:1,display:{Name:'"Bonemeal Essence"',Lore:['{"keybind":"key.use"}','"To Use"']}}
