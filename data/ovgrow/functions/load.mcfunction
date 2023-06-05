@@ -1,5 +1,8 @@
 ## function #load
 
+#check
+say loaded
+
 #scoreboard
 scoreboard objectives add ovgrow.temp dummy
 
