@@ -1,7 +1,6 @@
 ## function ovgrow:action/timer/seconds_1/marker/spreading/setblock/
 
 scoreboard players set @s ovgrow.temp 0
-tellraw @a[tag=convention.debug] {"score":{"name": "@s","objective": "ovgrow.temp"}}
 
 execute if block ~ ~ ~ carrots run setblock ~ ~ ~ carrots[age=0]
 execute if block ~ ~ ~ potatoes run setblock ~ ~ ~ potatoes[age=0]
