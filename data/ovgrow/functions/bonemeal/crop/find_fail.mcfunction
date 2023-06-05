@@ -1,2 +1,3 @@
-execute as @a[tag=ovgrow.target_player,limit=1,sort=nearest] unless entity @s[gamemode=creative] if score @s ovgrow.temp matches 1.. at @s run function ovgrow:bonemeal/item
-function ovgrow:bonemeal/crop/find_final
+## function ovgrow:bonemeal/crop/find
+
+execute if score #success ovgrow.temp matches 1.. run loot give @s[gamemode=!creative] loot ovgrow:i/bonemeal_essence
