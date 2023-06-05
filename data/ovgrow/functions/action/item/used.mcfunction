@@ -1,2 +1,6 @@
+## advancement ovgrow:item_use
+
+#make it reusable
 advancement revoke @a only ovgrow:item_use
-execute if data entity @s {SelectedItem:{tag:{display:{Name:'"Bonemeal Essence"'}}}} run function ovgrow:bonemeal/interact
+
+execute if predicate ovgrow:has_bonemeal_essence_in_hand run function ovgrow:bonemeal/interact
