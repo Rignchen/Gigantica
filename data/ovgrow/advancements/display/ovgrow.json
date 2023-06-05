@@ -1,9 +1,9 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:wheat_seeds"
 		},
-		"title": "jam 9",
+		"title": "Gigantica: The Crop Revolution",
 		"description": "Made with mangop & MichaelsLife",
 		"show_toast": false,
 		"announce_to_chat": false
