@@ -7,7 +7,7 @@ tellraw @a[tag=convention.debug] "Loaded"
 scoreboard objectives add ovgrow.temp dummy
 
 #schedules
-schedule function ovgrow:action/timer/seconds_1 1s
+schedule function ovgrow:action/timer/seconds_1/ 1s
 schedule function ovgrow:action/timer/seconds_5 5s
 
 #storage
