@@ -84,7 +84,7 @@
     ],
     [
       "minecraft:freeze_top_layer",
-      "ovgrow:crop"
+      "gigantica:crop"
     ]
   ],
   "has_precipitation": true,

@@ -1,0 +1,7 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": "{SelectedItem:{id:\"minecraft:ender_eye\",tag:{gigantican:{bonemeal_essence:1b}}}}"
+    }
+}

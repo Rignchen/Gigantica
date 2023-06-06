@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "crops":{
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "tag": "gigantica:crops"
+                },
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "farmland"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "gigantica:plant_crops/"
+    }
+}

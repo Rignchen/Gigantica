@@ -44,19 +44,19 @@ def max_linie(mcfunction):
 			maxi = out
 			bigest = mcfunction
 
-try:print("advancements:" + str(surch(["json"],"data/ovgrow/advancements")) + " (display: " + str(surch(["json"],"data/ovgrow/advancements/display")) + ")")
+try:print("advancements:" + str(surch(["json"],"data/gigantica/advancements")) + " (display: " + str(surch(["json"],"data/gigantica/advancements/display")) + ")")
 except:pass
-try:print("functions:" + str(surch(["mcfunction"],"data/ovgrow/functions",max_linie,[])) + " (bigest: " + str(maxi) + " (" + bigest + "), total commands: " + str(total) + ")")
+try:print("functions:" + str(surch(["mcfunction"],"data/gigantica/functions",max_linie,[])) + " (bigest: " + str(maxi) + " (" + bigest + "), total commands: " + str(total) + ")")
 except:pass
-try:print("predicates:" + str(surch(["json"],"data/ovgrow/predicates")))
+try:print("predicates:" + str(surch(["json"],"data/gigantica/predicates")))
 except:pass
-try:print("recipes:" + str(surch(["json"],"data/ovgrow/recipes")))
+try:print("recipes:" + str(surch(["json"],"data/gigantica/recipes")))
 except:pass
-try:print("items:" + str(surch(["json"],"data/ovgrow/loot_tables/i")))
+try:print("items:" + str(surch(["json"],"data/gigantica/loot_tables/i")))
 except:pass
-try:print("loot tables:" + str(surch(["json"],"data/ovgrow/loot_tables",exception="data/ovgrow/loot_tables/i")))
+try:print("loot tables:" + str(surch(["json"],"data/gigantica/loot_tables",exception="data/gigantica/loot_tables/i")))
 except:pass
-try:print("plugin:" + str(surch(["json"],"data/ovgrow/tags/functions")))
+try:print("plugin:" + str(surch(["json"],"data/gigantica/tags/functions")))
 except:pass
 if bad != []:print("/!\\ " + str(len(bad)) + " fonctions aren't comment: " + str(bad))
 if mt != []:print("/!\\ " + str(len(mt)) + " fonctions are empty: " + str(mt))

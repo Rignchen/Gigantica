@@ -1,4 +1,0 @@
-## function ovgrow:bonemeal/crop/harvest/start
-
-execute on passengers run kill @s
-kill @s
