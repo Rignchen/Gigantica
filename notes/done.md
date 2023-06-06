@@ -1,3 +1,7 @@
 - crops spreading
 - naturaly generated crops
 - super bonemeal
+- boss:
+    - bossbar system
+    - water regen
+    - spawn & die
