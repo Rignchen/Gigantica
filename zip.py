@@ -21,4 +21,4 @@ def compress(zip_name:str = getcwd().replace("\\","/").split("/")[-1],unwanted:l
 			file.write(path + a)
 	if is_first:
 		file.close()
-compress(unwanted=["stats.py","notes"],zip_name="Gigantica, The Crop Revolution")
+compress(unwanted=["stats.py","notes"],zip_name="Gigantica")

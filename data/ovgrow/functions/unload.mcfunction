@@ -7,5 +7,5 @@ scoreboard objectives remove ovgrow.temp
 kill @e[tag=ovgrow]
 
 #disable the pack
-datapack disable "file/Gigantica, The Crop Revolution"
-datapack disable "file/Gigantica, The Crop Revolution.zip"
+datapack disable "file/Gigantica"
+datapack disable "file/Gigantica.zip"
