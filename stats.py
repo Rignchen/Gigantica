@@ -7,14 +7,14 @@ bad = []
 mt = []
 system("cls")
 
-def surch(extension:list[str],path:str,function = None,exception = None):
+def surch(extension:list[str], path:str, function = None, exception = None):
 	out = 0
 	if path[-1] != "/": path += "/"
 	for a in listdir(path):
 		if exception == None or path + a not in exception:
 			try:
 				listdir(path + a)
-				out += surch(extension,path + a,function)
+				out += surch(extension, path + a, function)
 			except NotADirectoryError:
 				b = a.split(".")
 				if b[-1] in extension:
@@ -25,7 +25,7 @@ def surch(extension:list[str],path:str,function = None,exception = None):
 def max_linie(mcfunction):
 	global maxi, bigest, bad, total
 	out = 0
-	a = open(mcfunction,"r")
+	a = open(mcfunction, "r")
 	b = a.readlines()
 	a.close()
 	try:
@@ -44,19 +44,19 @@ def max_linie(mcfunction):
 			maxi = out
 			bigest = mcfunction
 
-try:print("advancements:" + str(surch(["json"],"data/gigantica/advancements")) + " (display: " + str(surch(["json"],"data/gigantica/advancements/display")) + ")")
+try:print("advancements:" + str(surch(["json"], "data/gigantica/advancements")) + " (display: " + str(surch(["json"], "data/gigantica/advancements/display")) + ")")
 except:pass
-try:print("functions:" + str(surch(["mcfunction"],"data/gigantica/functions",max_linie,[])) + " (bigest: " + str(maxi) + " (" + bigest + "), total commands: " + str(total) + ")")
+try:print("functions:" + str(surch(["mcfunction"], "data/gigantica/functions", max_linie, [])) + " (bigest: " + str(maxi) + " (" + bigest + "), total commands: " + str(total) + ")")
 except:pass
-try:print("predicates:" + str(surch(["json"],"data/gigantica/predicates")))
+try:print("predicates:" + str(surch(["json"], "data/gigantica/predicates")))
 except:pass
-try:print("recipes:" + str(surch(["json"],"data/gigantica/recipes")))
+try:print("recipes:" + str(surch(["json"], "data/gigantica/recipes")))
 except:pass
-try:print("items:" + str(surch(["json"],"data/gigantica/loot_tables/i")))
+try:print("items:" + str(surch(["json"], "data/gigantica/loot_tables/i")))
 except:pass
-try:print("loot tables:" + str(surch(["json"],"data/gigantica/loot_tables",exception="data/gigantica/loot_tables/i")))
+try:print("loot tables:" + str(surch(["json"], "data/gigantica/loot_tables", exception = "data/gigantica/loot_tables/i")))
 except:pass
-try:print("plugin:" + str(surch(["json"],"data/gigantica/tags/functions")))
+try:print("plugin:" + str(surch(["json"], "data/gigantica/tags/functions")))
 except:pass
 if bad != []:print("/!\\ " + str(len(bad)) + " fonctions aren't comment: " + str(bad))
 if mt != []:print("/!\\ " + str(len(mt)) + " fonctions are empty: " + str(mt))
