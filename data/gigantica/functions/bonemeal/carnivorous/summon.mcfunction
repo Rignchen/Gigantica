@@ -16,5 +16,6 @@ bossbar set gigantica:boss visible true
 
 #start boss's main loop
 schedule function gigantica:action/timer/boss/ 10t
+schedule function gigantica:action/timer/boss/attack 7s
 
 #define entity f0e99327-1f79-49d5-a473-2dfde6096b1c
