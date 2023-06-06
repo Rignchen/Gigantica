@@ -3,6 +3,9 @@
 #scoreboard
 scoreboard objectives remove ovgrow.temp
 
+#remove all entities
+kill @e[tag=ovgrow]
+
 #disable the pack
-datapack disable "file/jam 9 rign x mangop"
-datapack disable "file/jam 9 rign x mangop.zip"
+datapack disable "file/Gigantica, The Crop Revolution"
+datapack disable "file/Gigantica, The Crop Revolution.zip"
