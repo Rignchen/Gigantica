@@ -5,3 +5,4 @@
     - bossbar system
     - water regen
     - spawn & die
+    - spikes
