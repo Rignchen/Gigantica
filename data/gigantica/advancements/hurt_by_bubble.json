@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "vex",
+                        "nbt": "{Tags:[\"giganica.bobbles\"]}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "gigantica:boss/bubbles/attack"
+    }
+}

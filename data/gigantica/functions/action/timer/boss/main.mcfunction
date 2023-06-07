@@ -10,7 +10,7 @@ execute if score #temp gigantica.temp matches 0 unless predicate gigantica:no_re
 
 #bossbar
 execute store result bossbar gigantica:boss value run data get entity @s Health
-bossbar set gigantica:boss players @a[distance=..25]
+bossbar set gigantica:boss players @a[distance=..35]
 
 #loop
 schedule function gigantica:action/timer/boss/ 2t

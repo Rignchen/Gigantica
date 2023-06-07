@@ -13,7 +13,7 @@ data modify entity 1e744292-1204-4aa5-ba41-6a0bfc05c0aa transformation.translati
 #Roots
 execute as 1e744292-1204-4aa5-ba41-6a0bfc05c0aa on passengers run data modify entity @s transformation.translation set value [0f,0f,0f]
 
-#genericly put some of the values
+#dinamicly put some of the values
 execute store result score #temp gigantica.temp run data get entity f0e99327-1f79-49d5-a473-2dfde6096b1c Attributes[{Name:"minecraft:generic.max_health"}].Base
 execute store result entity f0e99327-1f79-49d5-a473-2dfde6096b1c Health int 1 run scoreboard players get #temp gigantica.temp
 execute store result bossbar gigantica:boss max run scoreboard players get #temp gigantica.temp
