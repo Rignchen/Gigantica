@@ -10,5 +10,5 @@ execute if score #temp gigantica.temp matches 0 if score @s gigantica.temp match
 #Only reposition every other time, starting with the third
 execute if score #temp gigantica.temp matches 1 if score @s gigantica.temp matches 3..5 if data storage gigantica:temp player_pos run data modify entity @s Pos set from storage gigantica:temp player_pos
 
-execute at @s align y run tp @s ~ ~ ~
+execute at @s align y run tp @s ~ ~ ~ ~ 0
 execute at @s run effect give @p[distance=..1] minecraft:poison 5 0 false
