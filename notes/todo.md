@@ -1,4 +1,3 @@
-- lab
 - plant mobs
-- boss
-- readme.md
+- loot tables
+- test & balance

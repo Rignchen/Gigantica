@@ -1,3 +1,4 @@
+# list of every feature we've allready work on
 - crops spreading
 - naturaly generated crops
 - super bonemeal
@@ -6,3 +7,6 @@
     - water regen
     - spawn & die
     - spikes
+	- poisonous bubbles
+- lab
+- readme.md
