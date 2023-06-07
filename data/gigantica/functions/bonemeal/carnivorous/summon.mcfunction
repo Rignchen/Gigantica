@@ -1,6 +1,6 @@
 ## function gigantica:bonemeal/carnivorous/can_spawn
 
-tellraw @a[tag=convention.debug] "Summon Carnivorous Boss"
+playsound minecraft:entity.drowned.death hostile @a ~ ~ ~ 1 0
 
 #I waned a 3 block height hitbox that don't take damaged in water and that can burn in fire, the iron golem is the only one left with these properties
 #boss's callable uuid: f0e99327-1f79-49d5-a473-2dfde6096b1c

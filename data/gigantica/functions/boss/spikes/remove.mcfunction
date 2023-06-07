@@ -1,3 +1,4 @@
-## scheduled function gigantica:boss/spikes/animate_out
+## scheduled function gigantica:boss/spikes/finish
 
-kill @e[tag=gigantica.spikes]
+execute as @e[tag=gigantica.spikes] run function gigantica:boss/spikes/remove_final
+data remove storage gigantica:temp player_pos

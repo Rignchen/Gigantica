@@ -1,5 +1,5 @@
-## scheduled function gigantica:boss/spikes/summon_init
+## function gigantica:boss/spikes/finish
+## function gigantica:boss/spikes/reanimate
 
-schedule clear gigantica:boss/spikes/target_player
-execute as @e[tag=gigantica.spikes] at @s run function gigantica:boss/spikes/animate_out_final
-schedule function gigantica:boss/spikes/remove 10t
+data merge entity @s {interpolation_duration:5,start_interpolation:0,transformation:{translation:[0f,-0.1f,0f],scale:[1f,0f,1f]}}
+playsound minecraft:entity.evoker_fangs.attack hostile @a ~ ~ ~ 1 1
