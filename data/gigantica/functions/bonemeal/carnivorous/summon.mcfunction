@@ -1,6 +1,6 @@
 ## function gigantica:bonemeal/carnivorous/can_spawn
 
-playsound minecraft:entity.drowned.death hostile @a ~ ~ ~ 1 0
+playsound minecraft:entity.drowned.death hostile @a[distance=..40] ~ ~ ~ 1 0
 fill ~-3 ~-1 ~-3 ~3 ~6 ~3 minecraft:air replace minecraft:cave_vines
 
 #I waned a 3 block height hitbox that don't take damaged in water and that can burn in fire, the iron golem is the only one left with these properties
