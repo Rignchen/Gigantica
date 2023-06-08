@@ -5,7 +5,23 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stone"
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "merge",
+                                    "source": "all.carnivorous_sword.tag",
+                                    "target": "{}"
+                                }
+                            ],
+                            "source": {
+                                "type": "storage",
+                                "source": "gigantica:item"
+                            }
+                        }
+                    ]
                 }
             ]
         }

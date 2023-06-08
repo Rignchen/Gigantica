@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "item": [
+                                "minecraft:diamond_sword"
+                            ],
+                            "nbt": "{gigantican:{spikes:1b}}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "gigantica:boss/spikes/player/attack_special"
+    }
+}

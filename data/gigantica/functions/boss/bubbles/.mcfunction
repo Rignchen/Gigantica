@@ -3,7 +3,7 @@
 scoreboard players add #bubbles gigantica.id 1
 scoreboard players operation #temp gigantica.temp = #bubbles gigantica.id
 scoreboard players remove #temp gigantica.temp 2
-execute as @e[type=vex,tag=giganica.bobbles] if score @s gigantica.id = #temp gigantica.temp run kill @s
+execute as @e[type=vex,tag=gigantica.bobbles] if score @s gigantica.id = #temp gigantica.temp run kill @s
 
 scoreboard players add #bubble_count gigantica.temp 4
 function gigantica:boss/bubbles/position

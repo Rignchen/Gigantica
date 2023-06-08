@@ -5,8 +5,10 @@ tellraw @a[tag=convention.debug] "Loaded"
 
 #scoreboard
 scoreboard objectives add gigantica.temp dummy
+scoreboard objectives add gigantica.id dummy
 scoreboard players set #2 gigantica.temp 2
 scoreboard players set #4 gigantica.temp 4
+scoreboard players set #7 gigantica.temp 7
 
 #schedules
 schedule function gigantica:action/timer/seconds_1/ 1s

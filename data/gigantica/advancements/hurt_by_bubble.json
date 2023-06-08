@@ -6,7 +6,7 @@
                 "damage": {
                     "source_entity": {
                         "type": "vex",
-                        "nbt": "{Tags:[\"giganica.bobbles\"]}"
+                        "nbt": "{Tags:[\"gigantica.bobbles\"]}"
                     }
                 }
             }

@@ -7,4 +7,4 @@ advancement revoke @s only gigantica:hurt_by_bubble
 effect give @s poison 5 0
 
 #remove the bubble
-kill @e[type=vex,tag=giganica.bobbles,limit=1,sort=nearest]
+kill @e[type=vex,tag=gigantica.bobbles,limit=1,sort=nearest]
