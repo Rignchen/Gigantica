@@ -5,7 +5,7 @@ fill ~-3 ~-1 ~-3 ~3 ~6 ~3 minecraft:air replace minecraft:cave_vines
 
 #I waned a 3 block height hitbox that don't take damaged in water and that can burn in fire, the iron golem is the only one left with these properties
 #boss's callable uuid: f0e99327-1f79-49d5-a473-2dfde6096b1c
-summon iron_golem ~ ~ ~ {Tags:["gigantica"],ActiveEffects:[{Id:14b,ShowParticles:0b,Duration:-1}],UUID:[I;-253127897,528042453,-1535955459,-435590372],Attributes:[{Base:300,Name:"generic.max_health"}],NoAI:1b,Silent:1b,Passengers:[{id:"minecraft:item_display",Tags:["gigantica","gigantica.anim"],item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:1}},UUID:[I;510935698,302271141,-1170118133,-66731862],Passengers:[{id:"minecraft:item_display",Tags:["gigantica","gigantica.roots"],item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:6}}}]}],DeathLootTable:"gigantica:boss"}
+summon iron_golem ~ ~ ~ {Tags:["gigantica"],ActiveEffects:[{Id:14b,ShowParticles:0b,Duration:-1}],UUID:[I;-253127897,528042453,-1535955459,-435590372],Attributes:[{Base:300,Name:"generic.max_health"}],NoAI:1b,Silent:1b,Passengers:[{id:"minecraft:item_display",Tags:["gigantica","gigantica.anim"],CustomName:'{"text":"Gigantica","color":"dark_green"}',item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:1}},UUID:[I;510935698,302271141,-1170118133,-66731862],Passengers:[{id:"minecraft:item_display",Tags:["gigantica","gigantica.roots"],item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:6}}}]}],DeathLootTable:"gigantica:boss"}
 
 #TODO adjust boss model and roots translation
 #Boss model
