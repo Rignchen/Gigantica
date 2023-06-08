@@ -24,3 +24,6 @@ function gigantica:item
 #define storage gigantica:item
 #define entity @a[tag=convention.debug]
 #define score_holder #temp
+
+#objmc scoreboard
+scoreboard objectives add anim dummy
