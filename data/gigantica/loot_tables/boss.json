@@ -4,24 +4,8 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_sword",
-                    "functions": [
-                        {
-                            "function": "copy_nbt",
-                            "ops": [
-                                {
-                                    "op": "merge",
-                                    "source": "all.carnivorous_sword.tag",
-                                    "target": "{}"
-                                }
-                            ],
-                            "source": {
-                                "type": "storage",
-                                "source": "gigantica:item"
-                            }
-                        }
-                    ]
+                    "type": "minecraft:loot_table",
+                    "name": "gigantica:i/carnivorous_sword"
                 }
             ]
         }
