@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/stick"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "gigantica:item/carnivorous"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "gigantica:item/spikes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "gigantica:item/spikes_target"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "gigantica:item/invis"
+		}
+	]
+}
