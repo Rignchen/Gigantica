@@ -1,13 +1,18 @@
 {
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "gigantica:i/carnivorous_sword"
-                }
-            ]
-        }
-    ]
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "killed_by_player"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "gigantica:i/carnivorous_sword"
+				}
+			]
+		}
+	]
 }
