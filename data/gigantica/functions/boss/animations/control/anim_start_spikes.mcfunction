@@ -9,5 +9,4 @@ scoreboard players operation .g ag %= .24000 ag
 scoreboard players remove .g ag 1
 scoreboard players operation .g ag %= .50 ag
 execute store result entity @s item.tag.display.color int 1 run scoreboard players get .g ag
-say yo
-
+tellraw @a[tag=convention.debug] [{"text": "yo"}]
