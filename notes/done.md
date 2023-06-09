@@ -10,3 +10,4 @@
 	- poisonous bubbles
 - lab
 - readme.md
+- loot tables

@@ -1,3 +1,2 @@
 - plant mobs
-- loot tables
 - test & balance
