@@ -1,12 +1,8 @@
 {
     "values": [
-        "minecraft:beetroots",
         "minecraft:brown_mushroom",
-        "minecraft:carrots",
         "minecraft:crimson_fungus",
-        "minecraft:potatoes",
         "minecraft:red_mushroom",
-        "minecraft:warped_fungus",
-        "minecraft:wheat"
+        "minecraft:warped_fungus"
     ]
 }

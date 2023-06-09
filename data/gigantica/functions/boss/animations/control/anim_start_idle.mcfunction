@@ -1,3 +1,5 @@
+## function gigantica:boss/animations/idle
+
 scoreboard players set .g ag 73
 scoreboard players set .73 ag 73
 execute store result score .gametime ag run time query gametime

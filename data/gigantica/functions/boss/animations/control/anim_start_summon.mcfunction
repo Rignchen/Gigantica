@@ -1,3 +1,5 @@
+# not called
+
 scoreboard players set .g ag 119
 scoreboard players set .119 ag 119
 execute store result score .gametime ag run time query gametime

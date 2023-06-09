@@ -4,20 +4,31 @@
 			"item": "minecraft:diamond_sword",
 			"nbt": "{CustomModelData:7771}"
 		},
-		"title": "#VegetarianLife!",
+		"title": "#VeganLife!",
 		"description": {
-			"text":"Defeat Gigantica, the carnivorous plant boss",
-			"color":"green"
+			"text":"Defeat Gigantica, with her own sword",
+			"color":"dark_green"
 		},
 		"frame": "challenge",
 		"show_toast": true,
-		"announce_to_chat": true
+		"announce_to_chat": true,
+		"hidden": true
 	},
-	"parent": "gigantica:display/boss_summon",
+	"parent": "gigantica:display/boss_defeat",
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"diamond_sword"
+							],
+							"nbt": "{gigantican:{spikes:1b}}"
+						}
+					}
+				},
 				"entity": {
 					"type": "minecraft:iron_golem",
 					"nbt": "{Tags:[\"gigantica\"]}"

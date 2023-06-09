@@ -13,5 +13,5 @@ tag @a remove gigantica.spike_target
 execute if score #temp gigantica.temp matches 1 if score @s gigantica.temp matches 3..5 if data storage gigantica:temp player_pos run data modify entity @s Pos set from storage gigantica:temp player_pos
 
 execute at @s align y run tp @s ~ ~ ~ ~ 0
-execute at @s run effect give @a[distance=..1] minecraft:poison 5 0 false
-execute at @s as @a[distance=..1] run damage @s 2 minecraft:thorns by 4edbe160-00d6-4939-a9ac-c3a51159caf4 from 1e744292-1204-4aa5-ba41-6a0bfc05c0aa
+execute at @s run effect give @a[distance=..1] minecraft:poison 10 2 false
+execute at @s as @a[distance=..1] run damage @s 4 minecraft:thorns by 4edbe160-00d6-4939-a9ac-c3a51159caf4 from 1e744292-1204-4aa5-ba41-6a0bfc05c0aa
