@@ -4,7 +4,7 @@
 effect give @e[tag=!gigantica,distance=..2.3] wither 15 2
 
 #empty milk and honey 1 by 1
-execute as @a[distance=..20] run function gigantica:action/timer/boss/disable/
+execute as @a[distance=..20] if predicate gigantica:random/1_4 run function gigantica:action/timer/boss/disable/
 
 #heal in water (cause it's a plant)
 execute store result score #temp gigantica.temp if block ~ ~ ~ water
