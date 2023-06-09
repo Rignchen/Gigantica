@@ -2,6 +2,8 @@
 
 #scoreboard
 scoreboard objectives remove gigantica.temp
+scoreboard objectives remove gigantica.id
+scoreboard objectives remove ag
 
 #remove all entities
 kill @e[tag=gigantica]

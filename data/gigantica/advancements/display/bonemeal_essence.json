@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_eye",
+			"nbt": "{CustomModelData:7771}"
+		},
+		"title": "Herbal Essence",
+		"description": "Use the bonemeal essence item on a growable plant",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "gigantica:display/gigantica",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -6,25 +6,25 @@
 	"overrides": [
 		{
 			"predicate": {
-				"custom_model_data": 1
+				"custom_model_data": 7771
 			},
 			"model": "gigantica:item/carnivorous"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 2
+				"custom_model_data": 7772
 			},
 			"model": "gigantica:item/spikes"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 3
+				"custom_model_data": 7773
 			},
 			"model": "gigantica:item/spikes_target"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 4
+				"custom_model_data": 7774
 			},
 			"model": "gigantica:item/invis"
 		}

@@ -1,13 +1,13 @@
 ## function gigantica:bonemeal/carnivorous/can_spawn
 
+scoreboard players set #boss_summoned gigantica.temp 1
 playsound minecraft:entity.drowned.death hostile @a[distance=..40] ~ ~ ~ 1 0
 fill ~-3 ~-1 ~-3 ~3 ~6 ~3 minecraft:air replace minecraft:cave_vines
 
 #I waned a 3 block height hitbox that don't take damaged in water and that can burn in fire, the iron golem is the only one left with these properties
 #boss's callable uuid: f0e99327-1f79-49d5-a473-2dfde6096b1c
-summon iron_golem ~ ~ ~ {Silent:1b,UUID:[I;-253127897,528042453,-1535955459,-435590372],DeathLootTable:"gigantica:boss",NoAI:1b,Tags:["gigantica"],Passengers:[{id:"minecraft:item_display",UUID:[I;510935698,302271141,-1170118133,-66731862],Tags:["gigantica","gigantica.anim"],Passengers:[{id:"minecraft:item_display",Tags:["gigantica","gigantica.roots"],item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:6}}}],CustomName:'{"text":"Gigantica","color":"dark_green"}',item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{display:{color:0},CustomModelData:1}}}],Attributes:[{Name:generic.max_health,Base:300}]}
+summon iron_golem ~ ~ ~ {Silent:1b,UUID:[I;-253127897,528042453,-1535955459,-435590372],DeathLootTable:"gigantica:boss",NoAI:1b,Tags:["gigantica"],Passengers:[{id:"minecraft:item_display",UUID:[I;510935698,302271141,-1170118133,-66731862],Tags:["gigantica","gigantica.anim"],Passengers:[{id:"minecraft:item_display",Tags:["gigantica","gigantica.roots"],item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:7776}}}],CustomName:'{"text":"Gigantica","color":"dark_green"}',item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{display:{color:0},CustomModelData:7771}}}],Attributes:[{Name:generic.max_health,Base:300}],ActiveEffects:[{Id:14,Duration:-1,ShowParticles:0b}]}
 
-#TODO adjust boss model and roots translation
 #Boss model
 data modify entity 1e744292-1204-4aa5-ba41-6a0bfc05c0aa transformation.translation set value [0f,0f,0f]
 #Roots
@@ -25,7 +25,6 @@ bossbar set gigantica:boss visible true
 #start boss's main loop
 schedule function gigantica:action/timer/boss/ 10t
 schedule function gigantica:action/timer/boss/attack 12s
-#TODO review time in between summon and idle animations
 schedule function gigantica:boss/animations/idle 119t
 
 #define entity f0e99327-1f79-49d5-a473-2dfde6096b1c

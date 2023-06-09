@@ -1,5 +1,6 @@
 ## function gigantica:action/timer/boss/
 
+scoreboard players reset #boss_summoned
 schedule clear gigantica:action/timer/boss/attack
 function gigantica:boss/spikes/finish
 

@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stick",
+			"nbt": "{CustomModelData:7771}"
+		},
+		"title": "Grow Mode",
+		"description": "Summon Gigantica, the carnivorous plant boss",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "gigantica:display/gigantica",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

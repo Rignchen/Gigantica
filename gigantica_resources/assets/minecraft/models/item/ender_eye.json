@@ -4,6 +4,11 @@
     "layer0": "minecraft:item/ender_eye"
   },
 	"overrides": [
-		{ "predicate": { "custom_model_data": 1 }, "model": "gigantica:item/bone-essence" }
+		{
+      "predicate": {
+        "custom_model_data": 7771
+      },
+      "model": "gigantica:item/bone-essence"
+    }
 	]
 }

@@ -1,7 +1,7 @@
 ## advancement gigantica:item_use
 
 #make it reusable
-advancement revoke @a only gigantica:bonemeal_use
+advancement revoke @s only gigantica:bonemeal_use
 
 scoreboard players set #success gigantica.temp 0
 execute store result score #success gigantica.temp run kill @e[type=minecraft:eye_of_ender,distance=..5,nbt={Item:{tag:{gigantican:{bonemeal_essence:1b}}}}]

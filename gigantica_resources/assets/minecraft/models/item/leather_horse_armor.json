@@ -4,11 +4,41 @@
     "layer0": "minecraft:item/leather_horse_armor"
   },
 	"overrides": [
-		{ "predicate": { "custom_model_data": 1 }, "model": "gigantica:item/boss_summon" },
-		{ "predicate": { "custom_model_data": 2 }, "model": "gigantica:item/boss_idle" },
-		{ "predicate": { "custom_model_data": 3 }, "model": "gigantica:item/boss_spikes" },
-		{ "predicate": { "custom_model_data": 4 }, "model": "gigantica:item/boss_bubbles" },
-		{ "predicate": { "custom_model_data": 5 }, "model": "gigantica:item/boss_death" },
-		{ "predicate": { "custom_model_data": 6 }, "model": "gigantica:item/boss_roots" }
+		{
+			"predicate": {
+				"custom_model_data": 7771
+			},
+			"model": "gigantica:item/boss_summon"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7772
+			},
+			"model": "gigantica:item/boss_idle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7773
+			},
+			"model": "gigantica:item/boss_spikes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7774
+			},
+			"model": "gigantica:item/boss_bubbles"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7775
+			},
+			"model": "gigantica:item/boss_death"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7776
+			},
+			"model": "gigantica:item/boss_roots"
+		}
 	]
 }
