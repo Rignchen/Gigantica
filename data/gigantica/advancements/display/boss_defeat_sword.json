@@ -25,7 +25,7 @@
 							"items": [
 								"diamond_sword"
 							],
-							"nbt": "{gigantican:{spikes:1b}}"
+							"nbt": "{gigantican:{spikes:1b},Enchantments:[{id:\"minecraft:sharpness\",lvl:1}]}"
 						}
 					}
 				},
