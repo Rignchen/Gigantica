@@ -1,0 +1,1 @@
+data modify entity @s item.tag.display.color set value 8388623

@@ -26,4 +26,5 @@ function gigantica:item
 #define score_holder #temp
 
 #objmc scoreboard
-scoreboard objectives add anim dummy
+scoreboard players set .24000 gigantica.temp 24000
+scoreboard objectives add ag dummy

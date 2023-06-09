@@ -26,7 +26,7 @@ bossbar set gigantica:boss visible true
 schedule function gigantica:action/timer/boss/ 10t
 schedule function gigantica:action/timer/boss/attack 12s
 #TODO review time in between summon and idle animations
-schedule function gigantica:boss/animations/idle 8s
+schedule function gigantica:boss/animations/idle 119t
 
 #define entity f0e99327-1f79-49d5-a473-2dfde6096b1c
 #define entity 1e744292-1204-4aa5-ba41-6a0bfc05c0aa
