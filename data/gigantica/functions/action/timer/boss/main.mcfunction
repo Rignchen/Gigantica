@@ -1,7 +1,7 @@
 ## function gigantica:action/timer/boss/
 
 #wither for nearby player
-effect give @e[tag=!gigantica,distance=..2] wither 15 1
+effect give @e[tag=!gigantica,distance=..2.3] wither 15 2
 
 #heal in water (cause it's a plant)
 execute store result score #temp gigantica.temp if block ~ ~ ~ water
