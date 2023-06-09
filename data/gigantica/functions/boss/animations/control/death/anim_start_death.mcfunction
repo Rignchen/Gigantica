@@ -1,3 +1,5 @@
+## function gigantica:boss/animations/death
+
 scoreboard players set .g ag 96
 scoreboard players set .96 ag 96
 execute store result score .gametime ag run time query gametime
