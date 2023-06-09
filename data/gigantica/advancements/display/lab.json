@@ -9,7 +9,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "gigantica:display/gigantica",
+	"parent": "minecraft:husbandry/root",
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:location",

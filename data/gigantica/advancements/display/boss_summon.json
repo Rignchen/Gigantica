@@ -10,7 +10,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "gigantica:display/gigantica",
+	"parent": "gigantica:display/lab",
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:impossible"

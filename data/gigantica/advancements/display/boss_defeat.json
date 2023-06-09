@@ -13,7 +13,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "gigantica:display/gigantica",
+	"parent": "gigantica:display/boss_summon",
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:player_killed_entity",
