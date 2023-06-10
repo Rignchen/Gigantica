@@ -1,6 +1,5 @@
 ## function gigantica:boss/animations/bubbles
 
-scoreboard players set .g ag 45
 scoreboard players set .45 ag 45
 execute store result score .gametime ag run time query gametime
 scoreboard players operation .g ag += .gametime ag

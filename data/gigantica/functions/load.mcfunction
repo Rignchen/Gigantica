@@ -10,7 +10,7 @@ scoreboard players set #2 gigantica.temp 2
 scoreboard players set #4 gigantica.temp 4
 scoreboard players set #7 gigantica.temp 7
 #objmc scoreboard
-scoreboard players set .24000 gigantica.temp 24000
+scoreboard players set .24000 ag 24000
 scoreboard objectives add ag dummy
 
 #schedules
