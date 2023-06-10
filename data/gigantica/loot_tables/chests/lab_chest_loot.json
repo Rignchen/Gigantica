@@ -2,6 +2,25 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "gigantica:i/bonemeal_essence",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "uniform",
+								"min": 5,
+								"max": 15
+							}
+						}
+					]
+				}
+			]
+		},
+		{
 			"rolls": 13,
 			"entries": [
 				{
@@ -177,25 +196,6 @@
 								"type": "uniform",
 								"min": 7,
 								"max": 12
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"name": "gigantica:i/bonemeal_essence",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "uniform",
-								"min": 5,
-								"max": 15
 							}
 						}
 					]
