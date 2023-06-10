@@ -6,7 +6,7 @@ scoreboard players operation #temp gigantica.temp = @s gigantica.temp
 scoreboard players operation #temp gigantica.temp %= #2 gigantica.temp
 
 #Only reanimate every other time, starting with the second
-tag @r[distance=..30,predicate=gigantica:grounded] add gigantica.spike_target
+tag @r[distance=..30,predicate=gigantica:grounded,gamemode=!creative,gamemode=!spectator] add gigantica.spike_target
 execute if score #temp gigantica.temp matches 0 if score @s gigantica.temp matches ..4 if entity @p[tag=gigantica.spike_target] at @s run function gigantica:boss/spikes/reanimate
 tag @a remove gigantica.spike_target
 #Only reposition every other time, starting with the third
