@@ -2,7 +2,8 @@ import zipfile
 from os import listdir, getcwd, remove
 def compress(zip_name:str = getcwd().replace("\\", "/").split("/")[-1], unwanted:list = [], path:str = "", is_first:bool = True, file:zipfile.ZipFile|None = None):
 	if is_first:
-		all_folder = listdir()
+		if path == "": all_folder = listdir()
+		else: all_folder = listdir(path)
 		if not zip_name.endswith(".zip"): zip_name +=  ".zip"
 		if zip_name in all_folder: remove(zip_name)
 		file = zipfile.ZipFile(zip_name, "x")
@@ -22,3 +23,4 @@ def compress(zip_name:str = getcwd().replace("\\", "/").split("/")[-1], unwanted
 	if is_first:
 		file.close()
 compress(unwanted = ["stats.py", "notes","gigantica_resources"], zip_name = "Gigantica")
+compress(unwanted = ["objmc-main"], zip_name = "Gigantica-rp",path="gigantica_resources/")
